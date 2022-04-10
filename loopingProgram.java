@@ -17,7 +17,14 @@ public class loopingProgram{
             i = i + 2;
             // print j / i and add a plus sign
             System.out.print(j + "/" + i + " + ");
-            } 
+            }
+            pl();
+            pl();
+            System.out.println("1/" + i * i);
+        pl();
+                
+        
+        
         // line space    
         pl();
         // line space
@@ -30,14 +37,24 @@ public class loopingProgram{
             i = i - 2;
             // print j and i and a plus sign also couldn't figure out how to get rid of the last + sign, tried everything I could find to try and work it out but couldn't and ran out of time
             System.out.print(j + "/" + i  + " + ");
-            } 
+            }
+            pl();
+            pl();
+            System.out.println("1/" + i / i); 
         // line space
         pl();
         // line space
         pl();
+
         
-          
-    }
+       
+
+        
+
+
+    }    
+        
+        
     // method to make println easier to enter without having to type the whole thing over and over and over again
     static void pl(){
         System.out.println();

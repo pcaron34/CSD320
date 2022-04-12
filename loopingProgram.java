@@ -1,6 +1,6 @@
 /*
 Paul Caron
-4-9-22
+4-10-22
 Module 5 Assignment
 */
 
@@ -21,10 +21,7 @@ public class loopingProgram{
             pl();
             pl();
             System.out.println("1/" + i * i);
-        pl();
-                
-        
-        
+        pl();        
         // line space    
         pl();
         // line space
@@ -46,20 +43,11 @@ public class loopingProgram{
         // line space
         pl();
 
-        
-       
-
-        
-
-
-    }    
-        
+        }    
         
     // method to make println easier to enter without having to type the whole thing over and over and over again
     static void pl(){
         System.out.println();
     }
    
-        
-
 }

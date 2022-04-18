@@ -21,10 +21,12 @@ public class mod6 {
 			for(int j = 1; j <= i; j++){
 				System.out.print(" ");
 			}
-			for(int j = 7; j <= i; j++){
-				System.out.print(q + " ");
+
+			for(int j = 1; j <= i; j++){
+				System.out.print(" ");
 			}
-						
+
+			System.out.println(q);
 			System.out.println();
 		}
 				
